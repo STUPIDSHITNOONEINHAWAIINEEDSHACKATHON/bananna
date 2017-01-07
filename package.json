@@ -1,28 +1,25 @@
 {
-  "name": "airship-foundation-starter-project",
+  "name": "stupid_shit_hack",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-load-plugins": "^1.2.4",
+    "gulp-sass": "^2.3.2"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "airship serve & npm run css:watch & npm run css:prefix & npm run start-browser-sync",
-    "css:watch": "node-sass --include-path 'bower_components/foundation-sites/scss' --include-path 'bower_components/motion-ui/src' scss/styles.scss compartments/assets/styles/_styles.css -w scss/",
-    "css:prefix": "postcss -u autoprefixer -w -o 'compartments/assets/styles/styles.css' 'compartments/assets/styles/_styles.css'",
-    "start-browser-sync": "browser-sync start --proxy 'localhost:9001' --files 'compartments/'"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/AirshipCMS/Airship-Foundation-Starter-Project.git"
+    "url": "git+https://andimiya@github.com/tylernchls/stupid_shit_hack.git"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
-  "homepage": "https://github.com/AirshipCMS/Airship-Foundation-Starter-Project#README",
-  "devDependencies": {
-    "autoprefixer": "^6.5.3",
-    "browser-sync": "^2.18.2",
-    "node-sass": "^3.13.0",
-    "postcss": "^5.2.6",
-    "postcss-cli": "^2.6.0"
-  }
+  "bugs": {
+    "url": "https://github.com/tylernchls/stupid_shit_hack/issues"
+  },
+  "homepage": "https://github.com/tylernchls/stupid_shit_hack#readme"
 }
