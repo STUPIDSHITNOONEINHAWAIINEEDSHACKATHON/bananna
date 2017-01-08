@@ -11,7 +11,7 @@ document.getElementById('loader_1').style.display = 'none';
 
 let loader_2 = document.createElement('div');
 loader_2.id = 'loader_2';
-loader_2.innerHTML = 'Fetching Machine Learning Algorithm...';
+loader_2.innerHTML = 'Fetching Machine Learning Algorithms...';
 main.appendChild(loader_2);
 document.getElementById('loader_2').style.display = 'none';
 

@@ -4,28 +4,30 @@ body  {
 
 h1 {
   // border: 10px solid green;
-  font-family: 'Lato', 'sans-serif';
+  font-family: 'Lato';
   font-size: 48px;
   color: white;
-  margin: 10px 50px 30px 50px;
+  margin: 10px 50px 50px 50px;
   text-align: center;
 }
 
 h2 {
   // border: 10px solid green;
   font-family: 'Lato', 'sans-serif';
+  font-weight: 100;
   font-size: 30px;
   color: white;
-  margin: 200px 50px 30px 50px;
+  margin: 120px 50px 30px 50px;
   text-align: center;
 }
 
 p {
   // border: 10px solid green;
   font-family: 'Lato', 'sans-serif';
-  font-size: 14px;
+  font-size: 16px;
+  font-weight: 100;
   color: white;
-  margin: 10px 50px 30px 50px;
+  margin: 10px 50px 70px 50px;
   text-align: center;
 }
 
@@ -37,26 +39,27 @@ p {
 }
 
 #submit {
+  font-family: 'Lato', 'sans-serif';
   border: 3px solid #ffffff;
   color: #ffffff;
-  font-size: 14px;
+  font-size: 16px;
   background: none;
-  padding: 9px 20px 10px 20px;
+  font-weight: 100;
+  padding: 9px 30px 10px 30px;
   text-decoration: none;
 }
 
 #submit:hover {
-  background: #050505;
+  background: #4B462D;
   text-decoration: none;
 }
 
 div {
   font-family: 'Iceland';
-  font-size: 28px;
   color: white;
+  font-size: 28px;
   text-align: center;
   margin: 80px 0px 0px 0px;
-
 }
 
 #eat {
@@ -65,4 +68,18 @@ div {
   color: white;
   text-align: center;
   margin: 100px 0px 0px 0px;
+}
+
+#header-logo {
+  margin: 10px 0px 10px 10px;
+}
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
 }
