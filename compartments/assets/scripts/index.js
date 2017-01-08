@@ -5,7 +5,7 @@ let subBtn = document.getElementById('submit');
 
 let loader_1 = document.createElement('div');
 loader_1.id = 'loader_1';
-loader_1.innerHTML =  "Hang on let me think";
+loader_1.innerHTML =  "Hang on, Searching your location";
 main.appendChild(loader_1);
 document.getElementById('loader_1').style.display = 'none';
 
@@ -69,17 +69,36 @@ loader_11.innerHTML = 'If the professor on Gilligans Island can make a radio out
 main.appendChild(loader_11);
 document.getElementById('loader_11').style.display = 'none';
 
+let loader_12 = document.createElement('div');
+loader_12.id = 'loader_12';
+loader_12.innerHTML = 'Can a hearse carrying a corpse drive in the carpool lane??';
+main.appendChild(loader_12);
+document.getElementById('loader_12').style.display = 'none';
+
+let loader_13 = document.createElement('div');
+loader_13.id = 'loader_13';
+loader_13.innerHTML = 'Can you cry under water?';
+main.appendChild(loader_13);
+document.getElementById('loader_13').style.display = 'none';
+
 let eat = document.createElement('div');
 eat.id = 'eat';
-eat.innerHTML = 'FUCK IT IM GOING TO ANDYS';
+eat.innerHTML = 'FUCK IT JUST GO TO ANDYS BRO';
 main.appendChild(eat);
 document.getElementById('eat').style.display = 'none';
 
+let img= document.createElement('img');
+img.id = "eat-photo";
+img.src = "/assets/media/monkey.jpg";
+img.width = 400;
+img.height = 200;
+main.appendChild(img);
+document.getElementById('eat-photo').style.display = 'none';
 
 
 subBtn.addEventListener('click', () => {
   document.getElementById('loader_1').style.display = "block";
-  let timeout = setTimeout(loaderTwo, 4000);
+  let timeout = setTimeout(loaderTwo, 3000);
 
 });
 
@@ -95,64 +114,78 @@ let showPage = () => {
   document.getElementById('loader_9').style.display = "none";
   document.getElementById('loader_10').style.display = "none";
   document.getElementById('loader_11').style.display = "none";
-
-
-
-
-
-
-
+  document.getElementById('loader_12').style.display = "none";
+  document.getElementById('loader_13').style.display = "none";
   document.getElementById('eat').style.display = "block";
+  document.getElementById('eat-photo').style.display = "block";
 }
+
+
+
+
+
+
+
+
 
 let loaderTwo  = () => {
   document.getElementById('loader_2').style.display = "block";
-  let timeout = setTimeout(loaderThree, 4000);
+  let timeout = setTimeout(loaderThree, 3000);
 }
 
 let loaderThree  = () => {
   document.getElementById('loader_3').style.display = "block";
-  let timeout = setTimeout(loaderFour, 4000);
+  let timeout = setTimeout(loaderFour, 3000);
 }
 
 let loaderFour  = () => {
   document.getElementById('loader_4').style.display = "block";
-  let timeout = setTimeout(loaderFive, 4000);
+  let timeout = setTimeout(loaderFive, 3000);
 }
 
 let loaderFive  = () => {
   document.getElementById('loader_5').style.display = "block";
-  let timeout = setTimeout(loaderSix, 4000);
+  let timeout = setTimeout(loaderSix, 3000);
 }
 
 let loaderSix  = () => {
   document.getElementById('loader_6').style.display = "block";
-  let timeout = setTimeout(loaderSeven, 4000);
+  let timeout = setTimeout(loaderSeven, 3000);
 }
 
 let loaderSeven  = () => {
   document.getElementById('loader_7').style.display = "block";
-  let timeout = setTimeout(loaderEight, 4000);
+  let timeout = setTimeout(loaderEight, 3000);
 }
 
 let loaderEight  = () => {
   document.getElementById('loader_8').style.display = "block";
-  let timeout = setTimeout(loaderNine, 4000);
+  let timeout = setTimeout(loaderNine, 3000);
 }
 
 let loaderNine  = () => {
   document.getElementById('loader_9').style.display = "block";
-  let timeout = setTimeout(loaderTen, 4000);
+  let timeout = setTimeout(loaderTen, 3000);
 }
 
 let loaderTen  = () => {
   document.getElementById('loader_10').style.display = "block";
-  let timeout = setTimeout(loaderEleven, 4000);
+  let timeout = setTimeout(loaderEleven, 3000);
 }
 
 let loaderEleven  = () => {
   document.getElementById('loader_11').style.display = "block";
-  let timeout = setTimeout(showPage, 4000);
+  let timeout = setTimeout(loaderTwelve, 3000);
+}
+
+let loaderTwelve  = () => {
+  document.getElementById('loader_12').style.display = "block";
+  let timeout = setTimeout(loaderThirteen, 3000);
+}
+
+let loaderThirteen  = () => {
+  document.getElementById('loader_13').style.display = "block";
+  let timeout = setTimeout(showPage, 3000);
 }
 
 
