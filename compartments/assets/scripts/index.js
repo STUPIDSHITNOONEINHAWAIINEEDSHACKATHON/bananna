@@ -98,6 +98,7 @@ document.getElementById('eat-photo').style.display = 'none';
 
 subBtn.addEventListener('click', () => {
   document.getElementById('loader_1').style.display = "block";
+  document.getElementById('submit').style.display = "none";
   let timeout = setTimeout(loaderTwo, 3000);
 
 });

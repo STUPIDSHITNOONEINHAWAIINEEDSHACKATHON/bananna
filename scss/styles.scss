@@ -13,12 +13,9 @@ h1 {
 
 #main {
   // border: 10px solid red;
-  display: flex;
-  flex-flow: row wrap;
-  align-items: center;
+  display: block;
   margin: 50px;
-  justify-content: center;
-  align-items: center;
+  line-height: 30px;
 }
 
 #submit {
@@ -41,4 +38,3 @@ div {
   color: white;
   text-align: center;
 }
-

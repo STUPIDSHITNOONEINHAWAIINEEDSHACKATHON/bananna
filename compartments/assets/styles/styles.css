@@ -9,16 +9,9 @@ h1 {
   text-align: center; }
 
 #main {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-flow: row wrap;
-  flex-flow: row wrap;
-  -ms-flex-align: center;
-  align-items: center;
+  display: block;
   margin: 50px;
-  -ms-flex-pack: center;
-  justify-content: center;
-  align-items: center; }
+  line-height: 30px; }
 
 #submit {
   border: 3px solid #ffffff;
