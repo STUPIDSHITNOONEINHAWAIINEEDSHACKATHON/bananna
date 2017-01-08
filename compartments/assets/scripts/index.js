@@ -64,21 +64,11 @@ main.appendChild(loader_10);
 document.getElementById('loader_10').style.display = 'none';
 
 
-
-
 let eat = document.createElement('div');
 eat.id = 'eat';
 eat.innerHTML = 'FUCK IT JUST GO TO ANDYS BRO';
 main.appendChild(eat);
 document.getElementById('eat').style.display = 'none';
-
-// let img= document.createElement('img');
-// img.id = "eat-photo";
-// img.src = "/assets/media/monkey.jpg";
-// img.width = 400;
-// img.height = 200;
-// main.appendChild(img);
-// document.getElementById('eat-photo').style.display = 'none';
 
 
 subBtn.addEventListener('click', () => {
